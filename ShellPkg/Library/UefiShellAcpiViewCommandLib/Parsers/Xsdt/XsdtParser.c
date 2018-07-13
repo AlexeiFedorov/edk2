@@ -105,7 +105,7 @@ ParseAcpiXsdt (
           &Revision
           );
 
-        SigPtr = (UINT8*)Signature;
+        SignaturePtr = (UINT8*)Signature;
 
         UnicodeSPrint (
           Buffer,
